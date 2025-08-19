@@ -1,8 +1,8 @@
 # Snake
 
-Pequeño experimento basado en el clásico juego _Snake_, en el que tienes que comer fruta para hacerte más largo sin chocarte contigo mismo. Los principales conceptos que quería probar con este proyecto son:
+Pequeño experimento basado en el clásico juego _Snake_, en el que tienes que comer fruta para crecer sin chocarte contigo mismo. Los principales conceptos que quería probar con este proyecto son:
 - **Animación procedimental**: a diferencia del _Snake_ tradicional, este juego no está basado en una cuadrícula, sino que la serpiente se mueve y dobla de manera más parecida a como lo haría una de verdad. Esta animación, así como las colisiones de la serpiente, está calculada procedimentalmente en el runtime.
-- **Música procedimental**: la música de fondo no ha sido compuesta de antemano, sino que ha sido generada procedimentalmente como se explicará más adelante.
+- **Música procedimental**: la música de fondo no ha sido compuesta de antemano, sino que ha sido generada procedimentalmente. Cada 20 puntos se cambia el acorde, de manera que sea más probable que se cambie a uno consonante (en este contexto el criterio principal ha sido que las notas se muevan lo mínimo posible entre acordes). La nota principal del acorde se reproduce de manera constante, mientras que el resto se reproducen de manera rítmica junto con una base de percusión para dar sensación de ritmo, así como cada vez que se come una fruta. Todo esto da una sonoridad similar al Omnichord, sintetizador comercializado por Suzuki.
 
 ![Captura de Gameplay](images/gameplay.jpg)
 
@@ -17,7 +17,7 @@ Pequeño experimento basado en el clásico juego _Snake_, en el que tienes que c
 
 ### 📦 Alternativa: versión compilada
 
-Descarga la última [release](https://github.com/usuario/repositorio/releases).
+Descarga la última [release](https://github.com/Jonas-RUnanyan/Snake/releases).
 
 ## 🎹 Controles
 
@@ -31,8 +31,4 @@ Se puede usar tanto WASD como las flechas direccionales para desplazarse en el s
 
 ## 👤 Autor
 
-Desarrollado por [Jonás Rodríguez Unanyan](https://github.com/tuusuario).
-
-## 📜 Licencia
-
-Este proyecto está bajo la licencia que prefieras (ej: MIT).
+Desarrollado por [Jonás Rodríguez Unanyan](https://github.com/Jonas-RUnanyan).
